@@ -1,6 +1,6 @@
 // Folders
 //def workspaceFolderName = "${WORKSPACE_NAME}"
-//def projectFolderName = "${PROJECT_NAME}"
+def projectFolderName = "SAMPLE"
 
 // Jobs
 def cartridge_build = freeStyleJob(projectFolderName + "/build_job")
